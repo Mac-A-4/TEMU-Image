@@ -1,0 +1,7 @@
+If you want to use a different image than "original.png":
+
+1. python3 convert.py <your_image.png/bmp/jpg> output.txt
+2. Take the output in output.txt, and replace the width, size, and image inside of boot.s with it.
+3. Recompile boot.s, and run.
+
+*Larger images can exceed 512 byte limit. original.png is nearly at the limit, so anything smaller than it will work.
